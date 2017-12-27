@@ -1,1 +1,0 @@
-# walkingnormal.github.io
