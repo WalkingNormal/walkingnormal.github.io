@@ -11,6 +11,7 @@
 #    |  |  \   --. /  .'.  \  |  |
 #    `--'   `----''--'   '--' `--'
 
+theme: jekyll-TeXt-theme
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
@@ -26,11 +27,11 @@ nav_lists:
       zh-Hant: 關於
     url: /about.html
 
-# paths:
-#   base: /
-#   home: /
-#   all:  /all.html
-#   rss:  /feed.xml
+paths:
+  base: /
+  home: /
+  all:  /all.html
+  rss:  /feed.xml
 
 ## GitHub repository (if the site is hosted by GitHub) ##
 # repository:  #e.g. someone/someone.github.io
@@ -86,8 +87,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README-*.md
-  - README.md
+  # - README-*.md
+  # - README.md
   - gulpfile.js
   - jekyll-text-theme.gemspec
   - package-lock.json
