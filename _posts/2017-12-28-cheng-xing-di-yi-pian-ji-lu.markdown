@@ -14,3 +14,6 @@ categories: 其他
 > sudo apt-get install ruby ruby-all-dev
 
 然后才能成功安装 Jekyll。
+
+----
+想安装靓丽的主题，发现还是有点困难的，总是搞不定。我先只使用默认主题得了。
