@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "成型第一篇记录"
-date: 2017-12-28 16:03:41
-categories: blog
+date:   2017-12-27 22:38:47
+categories: 其他
 ---
 先看了一会儿 hexo 的东西，并且本地也搭建了一套程序。后续发现，还是无法实现多端操作。因为 hexo 是生成可发布的 Public 文件，切换一台新电脑，根本无法同步工作。
 
@@ -10,6 +10,7 @@ categories: blog
 
 安装的时候的确应该看着官方文档。看其他文档可能不是最新内容，导致出现一些问题。
 
----
-2017-12-28 16:33:45
-发现从 github 上下载主题包。还出现 首页没有文章展示的情况。晚上回去用 gem 安装主题试试。
+在我本机(LinuxDeep)中安装，参照 Jekyll 官网首页的命令没有成功运行。在安装 ruby 环境的时候，需要使用这条命令
+> sudo apt-get install ruby ruby-all-dev
+
+然后才能成功安装 Jekyll。
