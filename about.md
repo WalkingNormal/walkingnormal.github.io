@@ -3,16 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+2018-02-11 09:48:51
+从 Hexo 转到 Jekyll。
+在使用 Hexo 的时候，遇到在不同电脑更换，网站文件无法同步的问题。
+公司电脑上有网站源文件，但到家后，无法直接获取源文件。需要使用额外的操作，比如 U盘、网盘同步 等方法。
+使用 Jekyll 后，不论切换任何电脑，直接从 github 上 clone。

@@ -16,11 +16,11 @@
 title: 行走平凡
 email: 631773510@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
-  欢迎来访
+  欢迎来访。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  行走平凡
+#twitter_username: jekyllrb
+github_username:  WalkingNormal
 
 # Build settings
 markdown: kramdown
