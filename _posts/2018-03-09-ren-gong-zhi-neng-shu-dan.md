@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AI 经典书单 | 人工智能学习该读哪些书"
-date: 2018-02-27
+date: 2018-03-09
 categories: 
 - 人工智能
 ---
