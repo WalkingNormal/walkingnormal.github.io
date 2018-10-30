@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GitPage指向域名"
-date:   2018-10-28
+date:   2018-10-30
 categories:
 ---
 
