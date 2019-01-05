@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch-PHP Content-Type header is not supported
-date: 2013-12-24 23:31:30
+date: 2019-01-05 14:17
 categories:
 tags:
 ---
