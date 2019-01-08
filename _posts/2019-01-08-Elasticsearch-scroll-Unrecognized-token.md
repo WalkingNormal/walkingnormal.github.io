@@ -43,7 +43,7 @@ while (isset($response['hits']['hits']) && count($response['hits']['hits']) > 0)
     $scroll_id = $response['_scroll_id'];
 
     // Execute a Scroll request and repeat
-    // <span style="color:red;">这里并没有说明还需设置 'body' => 'scroll_id'=>$scroll_id</span>
+    // **这里并没有说明还需设置 'body' => 'scroll_id'=>$scroll_id**
     $response = $client->scroll([
             "scroll_id" => $scroll_id,  //...using our previously obtained _scroll_id
             "scroll" => "30s"           // and the same timeout window
