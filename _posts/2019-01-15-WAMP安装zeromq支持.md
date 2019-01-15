@@ -17,4 +17,4 @@ tags:
 
 ---
 
-刚开始以为本地环境，只要安装下 `php-zmq` 模块就行了，总是出现 ` Unable to load dynamic library 'zmq'`这样的错误，谷歌百度出来的答案，都是第二步操作的事，没有说明还要安装 **`zmq` 程序**。
+刚开始以为本地环境，只要安装下 `php-zmq` 模块就行了，总是出现 ` Unable to load dynamic library 'zmq'` 这样的错误，谷歌百度出来的答案，都是第二步操作的事，没有说明还要安装 **zmq 程序**。
