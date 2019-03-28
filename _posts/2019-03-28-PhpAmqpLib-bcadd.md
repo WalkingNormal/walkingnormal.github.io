@@ -2,7 +2,7 @@
 title: 使用php-amqplib/php-amqplib提示 bcadd() 错误
 date: 2019-03-28
 categories:
-tags: elastic
+tags: RabbitMQ
 ---
 提示如下错误
 > PHP Fatal error:  Call to undefined function PhpAmqpLib\Wire\bcadd()
