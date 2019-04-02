@@ -208,6 +208,8 @@ output.elasticsearch:
 processors:
   - add_host_metadata: ~
   - add_cloud_metadata: ~
+  - decode_json_fields: 
+      fields: ["base_data"]  // 可以解析第二层的 JSON 例如这样的数据 {"id":"1115","dev_id":"81742899","position":"113.54370905343,34.79941056950","ctime":"2019-02-23 19:44:09","base_data":"{\"CSQ\":\"12\",\"LNG\":\"E113.5375450\",\"LAT\":\"N34.8004766\",\"SPD\":\"1\",\"COG\":\"257\",\"VSAT\":\"12\",\"USAT\":\"5\",\"ALT\":\"120.5\",\"Ve\":\"190\",\"Vb\":\"4008\",\"ACC\":\"0\"}","@timestamp":"2019-02-23T19:44:09+08:00"} , 采集到 elastic 时, base_data 也会是 JSON
 #================================ Logging =====================================
 
 # Sets log level. The default log level is info.
