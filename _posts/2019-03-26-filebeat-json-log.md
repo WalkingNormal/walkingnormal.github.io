@@ -5,7 +5,7 @@ categories:
 tags: elastic
 ---
 
-使用 `filebeat` 采集服务器上的日志，直接上传到 `Elasticsearch`
+## 使用 `filebeat` 采集服务器上的日志，直接上传到 `Elasticsearch`
 
 json 格式日志如下
 ```
@@ -235,5 +235,54 @@ processors:
 # have the Elasticsearch output configured, you can simply uncomment the
 # following line.
 #xpack.monitoring.elasticsearch:
+
+```
+
+## 如何实现不同日志写入不同索引
+
+```yml
+filebeat.inputs:
+
+# Each - is an input. Most options can be set at the input level, so
+# you can use different inputs for various configurations.
+# Below are the input specific configurations.
+
+- type: log
+
+  # Change to true to enable this input configuration.
+  # enabled: true
+
+  # Paths that should be crawled and fetched. Glob based paths.
+  paths:
+    # - /var/log/*-info.log     dev_info
+    - E:\wamp\www\dianche\GPSlogs\*-gps.log
+    # - E:\wamp\www\dianche\GPSlogs\*-mq.log
+    #- c:\programdata\elasticsearch\logs\*
+  fields:
+    log_source: "gps"
+  # json.keys_under_root: true
+  # json.overwrite_keys: true
+- type: log
+  paths:
+    - E:\wamp\www\dianche\GPSlogs\*-mq.log
+  fields:
+    log_source: "mq"
+  # json.keys_under_root: true
+  # json.overwrite_keys: true
+```
+
+定义两个 `type`。增加自定义字段 `log_source`，用在 `elasticsearch` 中写入索引时判断。
+
+```yaml
+output.elasticsearch:
+  # Array of hosts to connect to.
+  hosts: ["xxx:9200"]
+  indices:
+    - index: "test-liu-one"
+      when.equals:
+        fields.log_source: "gps"
+    - index: "test-liu-two"
+      when.equals:
+        fields.log_source: "mq"
 
 ```
