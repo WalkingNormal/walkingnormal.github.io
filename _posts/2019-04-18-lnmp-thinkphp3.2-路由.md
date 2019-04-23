@@ -1,6 +1,6 @@
 ---
 title: lnmp 集成环境下thinkphp3.2路由不生效
-date: 2019-03-28
+date: 2019-04-18
 categories:
 tags: RabbitMQ
 ---
