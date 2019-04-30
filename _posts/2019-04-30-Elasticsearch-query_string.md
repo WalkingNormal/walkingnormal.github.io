@@ -24,3 +24,4 @@ Elasticsearch 中存储如下日志信息，
             ),
 ```
 
+- Query 语法参考：https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-dsl-query-string-query
