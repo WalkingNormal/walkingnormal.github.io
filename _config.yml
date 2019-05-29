@@ -296,7 +296,7 @@ sidebar:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -353,7 +353,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: night blue
 
 
 # ---------------------------------------------------------------
@@ -608,7 +608,7 @@ pace_theme: pace-theme-mac-osx
 canvas_nest: false
 
 # three_waves
-three_waves: true
+three_waves: false
 
 # canvas_lines
 canvas_lines: false
