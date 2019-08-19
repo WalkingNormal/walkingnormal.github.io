@@ -18,7 +18,7 @@ json 格式日志如下
 
 [filebeat 官方手册](https://www.elastic.co/guide/en/beats/filebeat/current/index.html)
 
-修改 `filebeat.yml` 配置文件如下:
+修改 `filebeat.yml` 配置文件如下（文件路径默认是: `/etc/filebeat/`）:
 ```
 ###################### Filebeat Configuration Example #########################
 
