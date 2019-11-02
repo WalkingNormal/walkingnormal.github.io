@@ -21,3 +21,7 @@ usermod -aG docker 你的用户名
 ![UTOOLS1572402151177.png](https://i.loli.net/2019/10/30/aKybC91VDdpSl4r.png)
 
 ![UTOOLS1572402211804.png](https://i.loli.net/2019/10/30/RSHkI7Vv1fil4u6.png)
+
+
+## 安装 docker-compose
+参考链接 https://docs.docker.com/compose/install/
